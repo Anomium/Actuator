@@ -18,3 +18,11 @@ _Para incluir dentro de nuestra API REST esta librería, tan solo tenemos que a�
    <artifactId>spring-boot-starter-actuator</artifactId>
 </dependency>
 ```
+_Una vez incluida la dependencia se habilitan varios endpoints de actuator, para activar mas incluimos las siguientes líneas en el yml_
+```
+management:  
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+```
