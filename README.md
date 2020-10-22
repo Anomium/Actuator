@@ -26,3 +26,14 @@ management:
       exposure:
         include: "*"
 ```
+
+_Si queremos, podemos hacer que cada actuator nos muestre una información más detallada que la que muestra por defecto._
+_Por ejemplo, el actuator health, por defecto, solo muestra si la aplicación está levantada o no. Para ver más información sobre la misma, debemos establecer la siguiente propiedad:_
+```
+management:
+  endpoint:
+    shutdown:
+      enabled: true
+    health:
+      show-details: always
+```
