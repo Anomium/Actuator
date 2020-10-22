@@ -38,6 +38,6 @@ management:
       show-details: always
 ```
 ## Versionado 📌
-Actuator [Versiones](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-actuator)
+Actuator - [Versiones](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-actuator)
 ## Autor
 **Andrés Villanueva** - [Fuente](https://openwebinars.net/blog/como-anadir-spring-boot-actuator-tu-proyecto/)
