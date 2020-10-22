@@ -13,8 +13,8 @@ _Lo que hace es organizar una serie de endpoints REST, a través de un proyecto 
 
 _Para incluir dentro de nuestra API REST esta librería, tan solo tenemos que añadir esta dependencia maven starter:_
 ```
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
+<dependency>
+   <groupId>org.springframework.boot</groupId>
+   <artifactId>spring-boot-starter-actuator</artifactId>
+</dependency>
 ```
